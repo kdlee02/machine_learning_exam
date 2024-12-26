@@ -1,4 +1,4 @@
-# machine_learning_exam
+# Machine Learning Exam
 
 1. Write a Python program using numpy to perform specific image processing tasks
 on a color image. The tasks include converting a color image to grayscale and performing
