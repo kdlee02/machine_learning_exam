@@ -6,6 +6,7 @@ image flipping operations.
 
 (1) Horizontal Flip Function: Write a function flip_horizontal that takes a numpy array of the
 grayscale image and returns a horizontally flipped version.
+
 (2) Vertical Flip Function: Write a function flip_vertical that takes the same numpy array and
 returns a vertically flipped version.
 
@@ -15,10 +16,14 @@ You do not know the original polynomial degree used to generate the data.
 
 [Tasks]
 (1) Read the test2.csv file and split the data into a training set and a testing set.
+
 (2) Implement a loop that tries polynomial models of different degrees (from 1 to 10).
+
 (3) For each model, use polynomial features with a LinearRegression model to fit the training
 data.
+
 (4) Evaluate each model using the mean squared error (MSE) on the testing data.
+
 (5) Identify the degree of the polynomial that gives the lowest MSE.
 [Hints]
 - Use PolynomialFeatures from sklearn.preprocessing to generate polynomial and interaction
@@ -66,20 +71,24 @@ segmentation.
 ⚫ Load the Wholesale Customers dataset.
 ⚫ Conduct any necessary data preprocessing steps like normalization, handling missing
 values, or removing irrelevant features.
+
 (2) Exploratory Data Analysis:
 ⚫ Perform exploratory data analysis to understand the distribution of the key variables
 and the relationship between different features.
+
 (3) Clustering Implementation:
 ⚫ Implement k-means clustering to segment the wholesale customers.
 ⚫ Determine the optimal number of clusters using the Elbow Method
 (Please refer https://www.analyticsvidhya.com/blog/2021/01/in-depth-intuition-of-k-
 means-clustering-algorithm-in-machine-learning/.)
+
 (4) Cluster Analysis:
 ⚫ For each cluster, calculate the mean spending in each product category (Fresh, Milk,
 Grocery, etc.).
 ⚫ Compare these means across clusters to identify what distinguishes each cluster from
 the others. For example, one cluster might have high spending in "Fresh" and low in
 "Detergents_Paper," while another might show the opposite pattern.
+
 (5) Reporting Results: Summarize the characteristics of each cluster
 
 
