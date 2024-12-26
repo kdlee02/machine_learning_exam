@@ -1,6 +1,6 @@
 # machine_learning_exam
 
-1. [Objective] Write a Python program using numpy to perform specific image processing tasks
+1. Write a Python program using numpy to perform specific image processing tasks
 on a color image. The tasks include converting a color image to grayscale and performing
 image flipping operations.
 
